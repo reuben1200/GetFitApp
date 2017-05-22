@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * Activity class for the main options screen showing Muscle workout and select BMI
+ */
 public class AppMainActivity extends AppCompatActivity {
 
     private Button muscleWorkout;

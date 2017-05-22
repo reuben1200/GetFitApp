@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+/**
+ * MAin activity when app launches - Login screen
+ *
+ */
 public class MainActivity extends AppCompatActivity {
 
     private EditText username;

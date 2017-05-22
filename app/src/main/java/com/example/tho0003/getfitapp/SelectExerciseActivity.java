@@ -6,6 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+
+/**
+ * Activity to display options to user to select exerices based on muscle type selected
+ */
 public class SelectExerciseActivity extends AppCompatActivity {
 
     private Button exercise1;

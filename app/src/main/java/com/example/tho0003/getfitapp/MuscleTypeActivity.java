@@ -6,6 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * Activity to display the options to user to select a muscle type
+ */
 public class MuscleTypeActivity extends AppCompatActivity {
 
     private Button arms;

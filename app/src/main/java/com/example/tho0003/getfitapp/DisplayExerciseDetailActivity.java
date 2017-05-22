@@ -12,6 +12,12 @@ import com.daimajia.slider.library.Tricks.ViewPagerEx;
 
 import java.util.TreeMap;
 
+/**
+ * Activity to display the exercise detail slideshow and text
+ * I am using an open source slideshow component from github - com.daimajia.slider
+ * The import statements to use this library have been added in build.gradle file
+ * Instructions followed as given in link - https://github.com/daimajia/AndroidImageSlider
+ */
 public class DisplayExerciseDetailActivity extends AppCompatActivity implements BaseSliderView.OnSliderClickListener,
          ViewPagerEx.OnPageChangeListener{
 
