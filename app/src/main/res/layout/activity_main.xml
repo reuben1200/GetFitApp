@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/appHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:text="GET FIT " />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter Username"
+        android:layout_below="@+id/appHeading"
+        android:layout_marginTop="5dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Enter Password"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="5dp"
+        />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/password"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/helpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For first time users, the username and password used will be the official login"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/loginButton"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All exercises presented are to be used as a reference and injuries endured are not held responsible by GETFIT"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/helpText"/>
+</RelativeLayout>

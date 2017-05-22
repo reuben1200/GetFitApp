@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_muscle_type"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/selectArms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Arms"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/selectChest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chest"
+        android:layout_below="@id/selectArms"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/selectLegs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Legs"
+        android:layout_below="@id/selectChest"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/selectAbs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abs"
+        android:layout_below="@id/selectLegs"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/selectShoulders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shoulders"
+        android:layout_below="@id/selectAbs"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/selectBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/selectShoulders"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+</RelativeLayout>

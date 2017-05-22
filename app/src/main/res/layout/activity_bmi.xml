@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bmi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:text="GET FIT - Check BMI " />
+
+    <EditText
+        android:id="@+id/enterWeight"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter Weight (in Kgs)"
+        android:layout_below="@+id/pageTitle"
+        android:paddingTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/enterHeight"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Enter Height (in cms)"
+        android:layout_below="@+id/enterWeight"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/checkBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check BMI"
+        android:layout_below="@id/enterHeight"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"/>
+
+</RelativeLayout>

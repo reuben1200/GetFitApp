@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_select_exercise"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/exercise1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push-Ups X 10"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/exercise2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push-Ups X 20"
+        android:layout_below="@id/exercise1"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/exercise3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push-Ups X 30"
+        android:layout_below="@id/exercise2"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/exercise4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push-Ups X 40"
+        android:layout_below="@id/exercise3"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/exercise5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Push-Ups X 50"
+        android:layout_below="@id/exercise4"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
